@@ -13,7 +13,6 @@ def interpret(source):
         elif lexeme == "+":
             array[ptr] += 1
         elif lexeme == "-":
-            old = array[ptr]
             array[ptr] -= 1
         elif lexeme == ".":
             print(chr(array[ptr]), end="")
