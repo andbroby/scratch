@@ -8,8 +8,6 @@ def interpret(source):
         lexeme = source[i]
         if lexeme == ">":
             ptr += 1
-            if not ptr < len(array):
-                array.append(0)
         elif lexeme == "<":
             ptr -= 1
         elif lexeme == "+":
